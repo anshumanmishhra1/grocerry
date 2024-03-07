@@ -1,0 +1,53 @@
+@media screen and (max-width: 450px) {
+    body{
+        overflow-x: hidden;
+    }
+    .top-nav{
+        max-width: 450px;
+    }
+    .logo{
+        height: 30px;
+        width: 30px;
+    }
+
+    .search-bar{
+        visibility: hidden;
+    }
+
+    .container{
+        width: 210%;
+        height: 100%;
+    }
+    .right-container{
+        visibility: none;
+        width: 0;
+        height: 0;
+    }
+
+    .left-container{
+        width: 100%;
+
+    }
+
+    .grid-container{
+        margin-top: 2rem;
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10rem;
+    }
+
+    .grid-container-1{
+        max-width: 400%;
+    }
+
+    .grid-container-1-content>p{
+        font-size: 12px;
+    }
+
+    .grid-container-button{
+        width: 100%;
+    }
+}

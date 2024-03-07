@@ -746,52 +746,42 @@ body {
 
 .product-1:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-2:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-3:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-4:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-5:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-6:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-7:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-8:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-9:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 .product-10:hover .product-img {
     transform: scale(1.05); 
-    background-image: url('./images/product-2-2.jpg');
     cursor: pointer;
 }
 
@@ -800,6 +790,10 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: column;
+}
+
+.product-1:hover .product-img {
+    border-image-source: url('./images/product-2-2.jpg');
 }
 
 .product-img{
