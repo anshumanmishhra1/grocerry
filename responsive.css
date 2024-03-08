@@ -2,65 +2,248 @@
     body{
         overflow-x: hidden;
     }
+    
     .top-nav{
-        max-width: 450px;
+        width: 972px;
+        overflow-x: hidden;
+        height: 120px;
+        border-bottom: 2px solid black;
     }
+
     .logo{
-        height: 30px;
+        margin-top: 1rem;
+        height: 40px;
         width: 30px;
+        margin-left: 1rem;
     }
 
     .search-bar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        height: 60px;
+    }
+
+    .categories>img{
+        visibility: hidden;
+    }
+
+    .categories-text{
+        visibility: hidden;
+    }
+    .categories>img{
+        visibility: hidden;
+    }
+
+    .search-input{
+        width: 500px;
+        border-left: none;
+        font-size: 1.2rem;
+        cursor: progress;
+        padding-right: 13rem;
+    }
+
+    .right-section{
+        display: flex;
+    }
+
+    .compare{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    
+    .wishlist{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+    .compare>img{
+        height: 0;
+        width: 0;
+    }
+
+    .wishlist>img{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+    .cart{
+        margin-right: 1.2rem;
+        height: 60px;
+    }   
+
+    .icon-text{
+        top: -12%;
+        font-size: 0;
+    }
+
+    .profile{
+        height: 60px;
+        font-size: 0;
+        margin-right: 1rem;
+    }
+
+    .bottom-nav{
+        overflow: hidden;
+        display: flex;
+        height: 100px;
+        width: 100vw;
+    }
+
+    .category-btn{
+        display: flex;
+        height: 200px;
+        width: 150%;
+        border-radius: 10px;
+    }
+
+    .category-btn>img{
+        margin-top: -25%;
+        height: 35%;
+        margin-left: 1rem;
+    }
+
+    .category-btn>p{
+        font-size: 1.5rem;
+        margin-top: -25%;
+    }
+    .nav-center{
+        display: flex;
+        background-color: red;
+        height: 0;
+        width: 0;
         visibility: hidden;
     }
 
     .container{
-        overflow: hidden;
-        width: 210%;
-        height: 100%;
-    }
-    .right-container{
-        visibility: none;
-        width: 0;
-        height: 0;
+        margin-top: -4rem;
+        width:978px;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        background-image: none;
     }
 
     .left-container{
         width: 100%;
+        margin-left: 2.3rem;
+    }
 
+    .slider-content>h2{
+        margin-left: 0rem;
+        margin-right: 21rem;
+        font-size: 6rem;
+        line-height: 7rem;
+    }   
+    .right-container{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+    .subscribe{
+        margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        nav-right: 3rem;
+        height: 75px;
+        width: 400px;
+    }
+
+    .subscribe>img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .email-input{
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+    .subscribe-btn{
+        height: 75px;
+        width: 170px;
+        font-size: 1.5rem;
+        margin-right: 54rem;
     }
 
     .grid-container{
-        overflow: hidden;
-        margin-top: 2rem;
-        max-width: 450px;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 10rem;
+        gap: 2rem;
+        margin-top: -2rem;
+        margin-left: 1rem;
+        height: 200vh;
+        width: 100vw;
     }
 
     .grid-container-1{
-        max-width: 400%;
+        margin-top: 0rem;
+        margin-left: 34rem;
+        border-radius: 17px;
+        height: 200%;
+        background-size: cover;
+        width: 235%;
     }
 
     .grid-container-1-content>p{
-        font-size: 12px;
+        margin-top: 0rem;
+        font-size: 3.2rem;
+    }
+
+    .grid-container-2{
+        margin-top: 0rem;
+        margin-left: 34rem;
+        border-radius: 17px;
+        height: 200%;
+        background-size: cover;
+        width: 235%;
+    }
+
+    .grid-container-2-content>p{
+        margin-top: 0rem;
+        font-size: 3.2rem;
+    }
+    .grid-container-3{
+        margin-top: 0rem;
+        margin-left: 34rem;
+        border-radius: 17px;
+        height: 200%;
+        background-size: cover;
+        width: 235%;
+    }
+
+    .grid-container-3-content>p{
+        margin-top: 0rem;
+        font-size: 3.2rem;
     }
 
     .grid-container-button{
-        width: 100%;
+        margin-top: 10rem;
+        height: 3rem;
+        border-radius: 15px;
+        
+    }
+    .grid-container-button-3{
+        margin-top: 10rem;
+        height: 3rem;
+        border-radius: 15px;
+        
     }
 
-
-    .product-items-section{
-        display: flex;
-        flex-wrap: wrap;
+    .popular-section{
+        margin-top: 1rem;
     }
 
-    .product-1{
-        display: flex;
-        flex-direction: column;
+    .nav-flex{
+        height: 0;
+        width: 0;
+        visibility: hidden;
     }
+
 }
+
