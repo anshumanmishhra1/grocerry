@@ -92,8 +92,8 @@ body {
 }
 
 .profile>img:hover{
-    background-color: yellowgreen;
-    border-radius: 50%;
+    background-color: #3BB77E;
+    border-radius: 80%;
     color: white;
 }
 .compare{
@@ -1216,4 +1216,210 @@ body {
     background-color: #F4F6FA;
 }
 
+footer{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    border-radius: 2px solid red;
+}
 
+.footer-left{
+    margin-top: 0.5rem;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left>img{
+    margin-left: 1rem;
+}
+
+.footer-heading{
+    font-size: 17px;
+    color: gray;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+}
+
+.footer-location{
+    display: flex;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    gap: 5px;
+    height: 2rem;
+    align-items: center;
+}
+
+.footer-address{
+    color:gray;
+    font-size: 12px;
+}
+
+.footer-address>span{
+    font-weight: bold;
+    color: black;
+}
+
+
+.footer-contact{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    gap: 5px;
+    height: 2rem;
+    align-items: center;
+    color:gray;
+    font-size: 12px;
+}
+
+.footer-contact>span{
+    font-weight: bold;
+    color: black;
+}
+
+
+.footer-clock{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    gap: 5px;
+    height: 2rem;
+    align-items: center;
+    color:gray;
+    font-size: 12px;
+}
+
+.footer-clock>span{
+    font-weight: bold;
+    color: black;
+}
+
+
+.footer-install-heading{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.footer-download{
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.footer-download>img{
+   height: 80%;
+   width: 40%;
+   cursor: pointer;
+   transition: transform 0.4s ease;
+}
+
+.footer-download:hover img{
+    transform: scaleY(1.04);
+}
+
+.download-instruction{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: gray;
+}
+
+.payment-instruction{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.payment-image{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.footer-right{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    gap: 4em;
+    line-height: 2.4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-section-1>p:hover{
+    font-weight: 500;
+    color: #20c997;
+    transform: translateX(4px);
+}
+
+.footer-section-1>p{
+    transition: transform 0.4s ease;
+}
+
+.last-footer{
+    display: flex;
+    margin-top: 1rem;
+    height: 16vh;
+    width: 100vw;
+    border-top: 1px solid #20c997;
+}
+
+.copyright{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 30%;
+    font-size: 0.8rem;
+}
+
+.copyright>p{
+    font-size: 0.9rem;
+}
+
+.copyright>span{
+    color: #20c997;
+}
+
+.last-footer-contact{
+    margin-top: 1rem;
+    display: flex;
+    width: 17%;
+    height: 30%;
+}
+
+.last-footer-contact>img{
+    margin-top: 0.3rem;
+    height: 85%;
+}
+
+.contact-text{
+    display: flex;
+    margin-left: 0.4rem;
+    flex-direction: column;
+    color: #20c997;
+    font-size: 1.5rem;
+    align-items: center;
+    line-height: 19px;
+}
+
+.small-contact{
+    font-size: 10px;
+    color: gray;
+    margin-left: 0.3rem;
+}
+
+
+.social-media{
+    display: flex;
+    margin-top: 1rem;
+    color: gold;
+    height: 30%;
+    width: 30%;
+}
+
+.facebook{
+    background-color: #20c997;
+}
+
+.facebook>img{
+    background-color: #20c997;
+}
