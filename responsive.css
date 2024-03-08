@@ -57,6 +57,10 @@
     .product-items-section{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .product-1{
+        display: flex;
         flex-direction: column;
     }
 }

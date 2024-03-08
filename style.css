@@ -982,3 +982,175 @@ body {
 .item-1-right p:nth-child(1){
     font-size: 1.4rem;
 }
+
+.best-sell{
+    height: 4rem;
+    width: 100vw;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.best-sell>h2{
+    font-size: 2.3rem;
+    margin-top: -2.3rem;
+}
+
+
+.best-sell-container{
+    height: 100vh;
+    display: flex;
+    gap: 0.7rem;
+    width: 100vw;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.best-sell-left-container{
+    background: url('./images/banner-4.png') center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 80%;
+    width: 23%;
+    margin-top: 0.6rem;
+}
+
+.best-sell-left-container-btn{
+    display: flex;
+    margin-left: 3.7rem;
+    margin-top: 15rem;
+    background-color: #20c997;
+    border-radius: 8px;
+    width: 50%;
+    height: 8%;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.best-sell-left-container-btn>p{
+    width: 80%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.best-sell-left-container-btn:hover{
+    background-color: #fd7e14;
+    color: black;
+    transform: scaleX(1.02);
+}
+
+.best-sell-right-container{
+    width: 74%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.best-sell-items{
+    margin-top: 1rem;
+    height: 100%;
+    width: 98%;
+    border-radius: 4px;
+    gap: 0.5rem;
+    display: flex;
+}
+
+.best-sell-item-1{
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    height: 70%;
+    width: 25%;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.best-sell-item-1:hover .best-sell-img{
+    transform:scale(1.07);
+}
+
+.best-sell-img{
+    margin-top: 0.4rem;
+    margin-left: 1.4rem;
+    height: 180px;
+    width: 180px;
+    transition: transform 0.4s ease;
+
+}
+
+.best-sell-item-title{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.best-sell-item-rating{
+    margin-top: 0.3rem;
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.best-sell-item-price{
+    margin-top: 1rem;
+    color: #20c997;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.best-sell-item-price>span{
+    font-size: 15px;
+    text-decoration-line: line-through;
+    color: gray;
+    margin-left: 3rem;
+}
+
+.progress{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 5px;
+    border-radius: 7px;
+    background-color: gray;
+    width: 79%;
+}
+
+.progress-line{
+    background-color: #20c997;
+    height: 5px;
+    width: 55%;
+    border-radius: 7px;
+}
+
+.sold-quantity{
+    font-size: 13px;
+    color: gray;
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+}
+
+.best-sell-btn{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    height: 10%;
+    width: 80%;
+    background-color: #20c997;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    transition: transform 0.6s ease;
+}
+
+.best-sell-btn:hover{
+    background-color: rgb(255, 153, 0);
+    transform: scale(1.02);
+}
+
+
