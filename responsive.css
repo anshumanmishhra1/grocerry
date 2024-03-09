@@ -1,319 +1,188 @@
-@media screen and (max-width: 550px) {
-    body{
-        overflow-x: hidden;
-    }
-    
-    .top-nav{
-        width: 972px;
-        overflow-x: hidden;
-        height: 120px;
-        border-bottom: 2px solid black;
-    }
-
-    .logo{
-        margin-top: 1rem;
-        height: 40px;
-        width: 30px;
-        margin-left: 1rem;
-    }
-
-    .search-bar{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2rem;
-        height: 60px;
-    }
-
-    .categories>img{
-        visibility: hidden;
-    }
-
-    .categories-text{
-        visibility: hidden;
-    }
-    .categories>img{
-        visibility: hidden;
-    }
-
-    .search-input{
-        width: 500px;
-        border-left: none;
-        font-size: 1.2rem;
-        cursor: progress;
-        padding-right: 13rem;
-    }
-
-    .right-section{
-        display: flex;
-    }
-
-    .compare{
-        height: 0;
-        width: 0;
-        visibility: hidden;
-    }
-    
-    .wishlist{
-        height: 0;
-        width: 0;
-        visibility: hidden;
-    }
-
-    .compare>img{
-        height: 0;
-        width: 0;
-    }
-
-    .wishlist>img{
-        height: 0;
-        width: 0;
-        visibility: hidden;
-    }
-
-    .cart{
-        margin-right: 1.2rem;
-        height: 60px;
-    }   
-
-    .icon-text{
-        top: -12%;
-        font-size: 0;
-    }
-
-    .profile{
-        height: 60px;
-        font-size: 0;
-        margin-right: 1rem;
-    }
-
-    .bottom-nav{
-        overflow: hidden;
-        display: flex;
-        height: 100px;
-        width: 100vw;
-    }
-
-    .category-btn{
-        display: flex;
-        height: 200px;
-        width: 150%;
-        border-radius: 10px;
-    }
-
-    .category-btn>img{
-        margin-top: -25%;
-        height: 35%;
-        margin-left: 1rem;
-    }
-
-    .category-btn>p{
-        font-size: 1.5rem;
-        margin-top: -25%;
-    }
-    .nav-center{
-        display: flex;
-        background-color: red;
-        height: 0;
-        width: 0;
-        visibility: hidden;
-    }
+@media screen and (max-width: 420px) {
+    /* Your responsive styles for mobile devices */
 
     .container{
-        margin-top: -4rem;
-        width:978px;
-        overflow-x: hidden;
-        display: flex;
-        align-items: center;
         background-image: none;
+        overflow-x: hidden;
+        height: 100vh;
+        width: 270%;
+        background-color: red;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .left-container{
-        width: 100%;
-        margin-left: 2.3rem;
+        margin-left: 0.5rem;
+        height: 100vh;
+        width: 250%;
     }
 
     .slider-content>h2{
-        margin-left: 0rem;
-        margin-right: 21rem;
-        font-size: 6rem;
-        line-height: 7rem;
-    }   
+        font-size: 7rem;
+        line-height: 8rem;
+        margin-left: 0.5rem;
+    }
     .right-container{
         height: 0;
         width: 0;
         visibility: hidden;
     }
 
-    .subscribe{
-        margin-left: 1rem;
-        display: flex;
-        align-items: center;
-        margin-top: 3rem;
-        nav-right: 3rem;
-        height: 75px;
-        width: 400px;
-    }
-
-    .subscribe>img{
-        height: 40px;
-        width: 40px;
-    }
-
-    .email-input{
-        font-size: 1.2rem;
-        margin-right: 1rem;
-    }
-    .subscribe-btn{
-        height: 75px;
-        width: 170px;
-        font-size: 1.5rem;
-        margin-right: 54rem;
-    }
+    /* <!--📌Grid Section--> */
 
     .grid-container{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        margin-top: -2rem;
-        margin-left: 1rem;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        margin-top: 1rem;
+        background-color: aqua;
         height: 200vh;
-        width: 100vw;
+        width: 258%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .grid-container-1{
-        margin-top: 0rem;
-        margin-left: 34rem;
-        border-radius: 17px;
-        height: 200%;
         background-size: cover;
-        width: 235%;
+        height: 60vh;
+        width: 100%;
     }
 
     .grid-container-1-content>p{
-        margin-top: 0rem;
-        font-size: 3.2rem;
-    }
-
-    .grid-container-2{
-        margin-top: 0rem;
-        margin-left: 34rem;
-        border-radius: 17px;
-        height: 200%;
-        background-size: cover;
-        width: 235%;
-    }
-
-    .grid-container-2-content>p{
-        margin-top: 0rem;
-        font-size: 3.2rem;
-    }
-    .grid-container-3{
-        margin-top: 0rem;
-        margin-left: 34rem;
-        border-radius: 17px;
-        height: 200%;
-        background-size: cover;
-        width: 235%;
-    }
-
-    .grid-container-3-content>p{
-        margin-top: 0rem;
-        font-size: 3.2rem;
+        font-size: 3.8rem;
     }
 
     .grid-container-button{
-        margin-top: 10rem;
-        height: 3rem;
-        border-radius: 15px;
-        
+        margin-top: 7rem;
+        height: 4rem;
+        font-size: 2.4rem;
+        border-radius: 1rem;
     }
+
+    .grid-container-button>img{
+        font-size: 2.2rem;
+    }
+
+    .grid-container-2{
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    .grid-container-3{
+        margin-left: 1rem;
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+    }
+
     .grid-container-button-3{
-        margin-top: 10rem;
-        height: 3rem;
-        border-radius: 15px;
-        
+        margin-top: 7rem;
+        height: 4rem;
+        font-size: 2.4rem;
+        border-radius: 1rem;
+    }
+
+    .grid-container-button-3>img{
+        font-size: 2.2rem;
     }
 
     .popular-section{
-        overflow-x: hidden;
+        background-color: aquamarine;
         margin-top: 1rem;
+        /* display: flex; */
+        height: 15vh;
+        width: 80vh;
     }
 
     .popular-section-heading{
-        font-size: 2.4rem;
+        font-size: 4rem;
     }
 
     .nav-flex{
-        overflow-x: hidden;
         height: 0;
         width: 0;
         visibility: hidden;
     }
 
- 
 
     .product-items-section{
         overflow-x: hidden;
-        height: 100vh;
-        width: 240%;
+        overflow-y: hidden;
+        background-color: yellow;
+        height: 600vh;
+        width: 265%;
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
     }
 
     .product-1{
-        height: 80vh;
+        margin-left: 14rem;
+        height: 90vh;
         width: 70vh;
     }
-
-    .product-img{
-        margin-top: 1rem;
-        height: 300px;
-        width: 300px;
-    }
+    
 
     .product-title{
-        font-size: 1.7rem;
+        font-size: 2.8rem;
+        margin-left: 1.5rem;
     }
 
     .product-rating{
+        font-size: 2rem;
+        margin-right:19rem;
         margin-top: 0.5rem;
-        margin-right: 19rem;
-        font-size: 1rem;
-        font-weight: bold;
+        margin-left: 0rem;
     }
 
     .price-segment{
-        margin-top: 6rem;
+        height: 100px;
+        width: 500px;
     }
-    .price{
+    .product-button{
+        height: 90px;
+        width: 360px;
         font-size: 2rem;
     }
-
-    .product-button{
-        height: 80px;
-        width: 180px;
+    .price{
+        font-size: 4rem;
     }
 
     .product-button>img{
-        height: 90%;
-        width: 33%;
+        height: 3rem;
+        width: 3rem;
     }
 
     .product-button>button{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .product-2{
-        height: 80vh;
-        width: 50vh;
+        margin-left: 14rem;
+        height: 90vh;
+        width: 70vh;
     }
-    
+    .product-3{
+        margin-left: 14rem;
+        height: 90vh;
+        width: 70vh;
+    }
+    .product-4{
+        margin-left: 14rem;
+        height: 90vh;
+        width: 70vh;
+    }
+    .product-5{
+        margin-left: 14rem;
+        height: 90vh;
+        width: 70vh;
+    }
     .product-6{
-        height: 0;
-        width: 0;
-        visibility: hidden;
+        margin-left: 14rem;
+        height: 90vh;
+        width: 70vh;
     }
     .product-7{
         height: 0;
@@ -331,17 +200,8 @@
         visibility: hidden;
     }
     .product-10{
-        height: 0;
-        width: 0;
-        visibility: hidden;
+        height: 90vh;
+        width: 70vh;
     }
-    
-   .hero-section-2{
-    overflow-x: hidden;
-    height: 100vh;
-    display: flex;;
-    width: 1300%;
-   }
-    
-}
 
+}
