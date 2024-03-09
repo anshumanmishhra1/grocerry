@@ -111,8 +111,7 @@
     .product-items-section{
         overflow-x: hidden;
         overflow-y: hidden;
-        background-color: yellow;
-        height: 600vh;
+        height: 577vh;
         width: 265%;
         display: flex;
         flex-wrap: wrap;
@@ -204,4 +203,171 @@
         width: 70vh;
     }
 
+
+    .hero-section-2{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 78vh;
+        width: 259%;
+        margin-left: 1rem;
+        margin-top: 5rem;
+    }
+
+    .hero-section-2-container{
+        height: 70vh;
+        width: 259%;
+    }
+
+    .hero-section-2-left{
+        margin-top: 0rem;
+        margin-left: 1.4rem;
+        height: 60vh;
+    }
+
+    .hero-section-2-left-upper-text{
+        font-size: 3rem;
+    }
+
+    .hero-section-2-left-down-text{
+        font-size: 2rem;
+    }
+    .hero-section-2-left-down-text>span{
+        font-size: 2rem;
+    }
+
+    .email-input{
+        font-size: 1.3rem;
+    }
+
+    .subscribe-btn{
+        width: 50%;
+    }
+
+    .hero-section-2-right-img{
+        margin-top:8rem;
+        height: 55vh;
+        width: 55vh;
+        margin-left: 4rem;
+    }
+
+    .icon-container{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 28vh;
+        width: 250%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .item-1{
+        margin-top: 1rem;
+        height: 25vh;
+        width: 40vh;
+    }
+
+    .item-1-left>img{
+        height: 100%;
+        width: 120%;
+    }
+
+    .item-1-right p:nth-child(1){
+        font-size: 2.5rem;
+    }
+
+    .item-1-right p:nth-child(2){
+        font-size: 1.2rem;
+    }
+
+    .best-sell{
+        margin-top: 4rem;
+        background-color: yellow;
+        height: 6rem;
+        width: 120%;
+    }
+
+    .best-sell>h2{
+        font-size: 4rem;
+    }
+
+    .best-sell-container{
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: aqua;
+        height: 80vh;
+        width: 250%;
+    }
+
+    .category-heading{
+        height: 10vh;
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+
+    .category-section{
+        height: 32vh;
+        width: 250%;
+        display: flex;
+    }
+
+    .category-items{
+        height: 15rem;
+        width: 16rem;
+
+        display: flex;
+    }
+
+    .category-items-img{
+        margin-top: 1.2rem;
+    }
+
+    .category-items:nth-child(6){
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    .category-items:nth-child(7){
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    .category-items:nth-child(8){
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    .category-items:nth-child(9){
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    .category-items:nth-child(10){
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    .category-items:nth-child(11){
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+    footer{
+        font-size: 1rem;
+        height: 60vh;
+        width: 255%;
+    }
+
+    .last-footer{
+        width: 250%;
+    }
+
+    .copyright{
+        width: 50%;
+        font-size: 1.3rem;
+    }
+
+    .last-footer-contact{
+        display: flex;
+        margin-left: 5rem;
+    }
 }
