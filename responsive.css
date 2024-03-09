@@ -1,19 +1,98 @@
 @media screen and (max-width: 420px) {
     /* Your responsive styles for mobile devices */
+    .top-nav{
+        height: 160px;
+        width: 258%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 
+    .logo{
+        margin-top: 2rem;
+    }
+
+    .search-bar{
+        margin-top: 2.4rem;
+        height: 4rem;
+    }
+    .categories>img{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    .categories>span{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+    
+    .search-input{
+        margin-right: 6rem;
+        font-size: 2rem;
+        width: 90%;
+    }
+    .compare{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+    .wishlist{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+    .profile{
+        margin-right: 1rem;
+    }
+
+    .profile>img{
+        height: 4rem;
+    }
+
+    .profile>p{
+        font-size: 1.6rem;
+        margin-top: 1rem;;
+    }
+
+    .cart{
+        margin-right: 1rem;
+    }
+
+    .cart>img{
+        height: 4rem;
+    }
+
+    .cart>p{
+        font-size: 1.6rem;
+        margin-top: 1rem;;
+    }
+
+    .cart-quantity{
+        font-size: 2rem;
+        height: 3rem;
+        margin-right: -3.7rem;
+        top: -1.4rem;
+        width: 3rem;
+    }
+    .bottom-nav{
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
     .container{
         background-image: none;
         overflow-x: hidden;
         height: 100vh;
-        width: 270%;
-        background-color: red;
+        width: 258%;
         display: flex;
         flex-wrap: wrap;
     }
 
     .left-container{
         margin-left: 0.5rem;
-        height: 100vh;
+        height: 80vh;
         width: 250%;
     }
 
@@ -36,7 +115,6 @@
         overflow-x: hidden;
         overflow-y: hidden;
         margin-top: 1rem;
-        background-color: aqua;
         height: 200vh;
         width: 258%;
         display: flex;
@@ -90,7 +168,6 @@
     }
 
     .popular-section{
-        background-color: aquamarine;
         margin-top: 1rem;
         /* display: flex; */
         height: 15vh;
@@ -280,7 +357,6 @@
 
     .best-sell{
         margin-top: 4rem;
-        background-color: yellow;
         height: 6rem;
         width: 120%;
     }
@@ -292,7 +368,6 @@
     .best-sell-container{
         overflow-x: hidden;
         overflow-y: hidden;
-        background-color: aqua;
         height: 80vh;
         width: 250%;
     }
